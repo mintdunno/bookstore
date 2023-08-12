@@ -1,1 +1,1 @@
-# bookstore
+https://mintdunno.github.io/bookstore/
