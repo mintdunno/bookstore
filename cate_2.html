@@ -1,0 +1,148 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: TRAN NGOC MINH
+    ID: Your student S3911737
+    Acknowledgement: 
+	1/ https://www.pexels.com/vi-vn/anh/nh-c-a-ng-i-dang-gi-sach-2954199/
+	2/ https://www.youtube.com/@DarkCodeOnline (learn how to make flex boxes)
+	3/ canva.com (for designing banner)
+	4/ bookshop.org (UI/UX reference)
+	5/ amazon.com (Books Pics and description) 
+	6/ https://colorhunt.co/ (color pattern)
+	7/ https://getcssscan.com/css-box-shadow-examples (css boxes shadow)
+	8/ https://www.w3schools.com/ (terms and syntax)
+	9/ https://developer.mozilla.org/en-US/ (elements and atributes)
+	10/ Bing AI chat: generate brief description for books
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business & Money Books</title>
+    <script src="https://kit.fontawesome.com/1fe306d809.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="mint-logo.png" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-1">
+            <div class="icon">
+                <a href="index.html"><img src="mint-logo.png" alt="Logo" width="100px"></a>
+            </div>
+            <form  acction="search.processing" class="search-form">
+                <input type="search" id="search-box" placeholder="Search by Title, Author or Keyword">
+                <label for="search-box"><img src="https://rails-assets-us.bookshop.org/ds/images/search.179df46915b36d0fba2c0ab8f704467e37bb6558.svg" title="Search" alt="Search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-icon" class="fas fa-search"></div>
+                <div id="shopping-icon" class="fas fa-shopping-cart"></div>
+                <div id="user-icon" class="fas fa-user"></div>
+            </div>
+        </div>
+    </header>
+    <div class="mobi_icon">☰</div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="kid_book.html">Kids</a></li>
+            <li><a href="cate_2.html">Business & Money</a></li>
+            <li><a href="cate_3.html">Computer & Technology Books</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="banner">
+            <img src="https://s11.gifyu.com/images/ScA2W.png" alt="Business and Money">
+        </div>
+    </section>
+    <main>
+        <h1>Personal Finance</h1>
+        <div class="container">
+            <div class="book">
+                <a href="sub_code\cate_2\cate_2_1.html">
+                    <img src="https://m.media-amazon.com/images/I/81BE7eeKzAL.jpg" alt="Rich Dad Poor Dad">
+                    <h3>7.&nbsp79 $</h3>
+                    <h2>Rich Dad Poor Dad</h2>
+                </a>
+            </div>
+            <div class="book">
+                <a href="sub_code\cate_2\cate_2_2.html">
+                    <img src="https://m.media-amazon.com/images/I/71UypkUjStL.jpg" alt="Think and Grow Rich">
+                    <br>
+                    <h3>8.&nbsp19 $</h3>
+                    <h2>Think and Grow Rich</h2>
+                </a>
+                
+            </div>
+            <div class="book">
+                <a href="sub_code\cate_2\cate_2_3.html">
+                    <img src="https://m.media-amazon.com/images/I/71oei0tAnzL.jpg" alt="The 7 Habits of Highly Effective People">
+                    <br>
+                    <h3>10.&nbsp74 $</h3>
+                    <h2>The 7 Habits of Highly Effective People</h2>
+                </a>
+            </div>
+            <div class="book-clone"></div>
+        </div>
+        <h1>Economics</h1>
+        <div class="container">
+            <div class="book">
+                <a href="sub_code\cate_2\cate_2_4.html">
+                    <img src="https://m.media-amazon.com/images/I/81zlbsnFiYL.jpg" alt="The Psychology of Money">
+                    <h3>11.&nbsp86 $</h3>
+                    <h2>The Psychology of Money:</h2>
+                </a>
+            </div>
+            <div class="book">
+                <a href="sub_code\cate_2\cate_2_5.html">
+                    <img src="https://m.media-amazon.com/images/I/71O9hZNhVuL.jpg" alt="The Four Pillars of Investing">
+                    <br>
+                    <h3>5.&nbsp74 $</h3>
+                    <h2>The Four Pillars of Investing</h2>
+                </a>
+                
+            </div>
+            <div class="book">
+                <a href="sub_code\cate_2\cate_2_6.html">
+                    <img src="https://m.media-amazon.com/images/I/71Lkho4-teL.jpg" alt="Game Changer: Our Fifty-Year Mission to Secure America's Energy Independence">
+                    <br>
+                    <h3>5.&nbsp74 $</h3>
+                    <h2>Game Changer: Our Fifty-Year Mission to Secure America's Energy Independence</h2>
+                </a>
+            </div>
+            <div class="book-clone"></div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <div class="icon">
+                <a href="index.html"><img src="mint-logo.png" alt="Logo" width="100px"></a>
+            </div>
+            <nav class="navbar-2">
+                <ul>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="privacy.html">Terms</a></li>
+                    <li><a href="privacy.html">Copyright</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <center>
+            <div class="footer-2">
+                <p>© Copyright 2023 by Minh Tran</p>
+            </div>
+        </center>
+        
+    </footer>
+    
+</body>
+</html>

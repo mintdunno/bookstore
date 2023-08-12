@@ -1,0 +1,148 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: TRAN NGOC MINH
+    ID: Your student S3911737
+    Acknowledgement: 
+	1/ https://www.pexels.com/vi-vn/anh/nh-c-a-ng-i-dang-gi-sach-2954199/
+	2/ https://www.youtube.com/@DarkCodeOnline (learn how to make flex boxes)
+	3/ canva.com (for designing banner)
+	4/ bookshop.org (UI/UX reference)
+	5/ amazon.com (Books Pics and description) 
+	6/ https://colorhunt.co/ (color pattern)
+	7/ https://getcssscan.com/css-box-shadow-examples (css boxes shadow)
+	8/ https://www.w3schools.com/ (terms and syntax)
+	9/ https://developer.mozilla.org/en-US/ (elements and atributes)
+	10/ Bing AI chat: generate brief description for books
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Book</title>
+    <script src="https://kit.fontawesome.com/1fe306d809.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="mint-logo.png" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-1">
+            <div class="icon">
+                <a href="index.html"><img src="mint-logo.png" alt="Logo" width="100px"></a>
+            </div>
+            <form  acction="search.processing" class="search-form">
+                <input type="search" id="search-box" placeholder="Search by Title, Author or Keyword">
+                <label for="search-box"><img src="https://rails-assets-us.bookshop.org/ds/images/search.179df46915b36d0fba2c0ab8f704467e37bb6558.svg" title="Search" alt="Search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-icon" class="fas fa-search"></div>
+                <div id="shopping-icon" class="fas fa-shopping-cart"></div>
+                <div id="user-icon" class="fas fa-user"></div>
+            </div>
+        </div>
+    </header>
+    <div class="mobi_icon">☰</div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="kid_book.html">Kids</a></li>
+            <li><a href="cate_2.html">Business & Money</a></li>
+            <li><a href="cate_3.html">Computer & Technology Books</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="banner">
+            <img src="https://s11.gifyu.com/images/ScA2n.png" alt="kid book banner">
+        </div>
+    </section>
+    <main>
+        <h1>Fairy Tails</h1>
+        <div class="container">
+            <div class="book">
+                <a href="sub_code\Kids\kid_1.html">
+                    <img src="https://m.media-amazon.com/images/I/51Fr0XHciHL._SY498_BO1,204,203,200_.jpg" alt="How to Catch a Mermaid">
+                    <h3>5.&nbsp74 $</h3>
+                    <h2>How to Catch a Mermaid</h2>
+                </a>
+            </div>
+            <div class="book">
+                <a href="sub_code\Kids\kid_2.html">
+                    <img src="https://m.media-amazon.com/images/I/51Fi7Xu6ENL._SY498_BO1,204,203,200_.jpg" alt="How to Catch a Mermaid">
+                    <br>
+                    <h3>5.&nbsp74 $</h3>
+                    <h2>How to Catch a Unicorn</h2>
+                </a>
+                
+            </div>
+            <div class="book">
+                <a href="sub_code\Kids\kid_3.html">
+                    <img src="https://m.media-amazon.com/images/I/71x71akmHIL.jpg" alt="How to Catch a Mermaid">
+                    <br>
+                    <h3>10.&nbsp74 $</h3>
+                    <h2>Never Let a Unicorn Wear a Tutu!</h2>
+                </a>
+            </div>
+            <div class="book-clone"></div>
+        </div>
+        <h1>Animals</h1>
+        <div class="container">
+            <div class="book">
+                <a href="sub_code\Kids\kid_4.html">
+                    <img src="https://m.media-amazon.com/images/I/81nzxODnaJL.jpg" alt="How to Catch a Mermaid">
+                    <h3>4.&nbsp19 $</h3>
+                    <h2>If Animals Kissed Good Night</h2>
+                </a>
+            </div>
+            <div class="book">
+                <a href="sub_code\Kids\kid_5.html">
+                    <img src="https://m.media-amazon.com/images/I/71N4oeWwYlL.jpg" alt="How to Catch a Mermaid">
+                    <br>
+                    <h3>5.&nbsp74 $</h3>
+                    <h2>The Wonky Donkey</h2>
+                </a>
+                
+            </div>
+            <div class="book">
+                <a href="sub_code\Kids\kid_6.html">
+                    <img src="https://m.media-amazon.com/images/I/61Pkr5zTX0L.jpg" alt="The Wonky Donkey">
+                    <br>
+                    <h3>3.&nbsp69 $</h3>
+                    <h2>Moo, Baa, La La La!</h2>
+                </a>
+            </div>
+            <div class="book-clone"></div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <div class="icon">
+                <a href="index.html"><img src="mint-logo.png" alt="Logo" width="100px"></a>
+            </div>
+            <nav class="navbar-2">
+                <ul>
+                    <li><a href="index.html">About Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="privacy.html">Terms</a></li>
+                    <li><a href="privacy.html">Copyright</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <center>
+            <div class="footer-2">
+                <p>© Copyright 2023 by Minh Tran</p>
+            </div>
+        </center>
+        
+    </footer>
+    
+</body>
+</html>

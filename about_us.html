@@ -1,0 +1,110 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: TRAN NGOC MINH
+    ID: Your student S3911737
+    Acknowledgement: 
+	1/ https://www.pexels.com/vi-vn/anh/nh-c-a-ng-i-dang-gi-sach-2954199/
+	2/ https://www.youtube.com/@DarkCodeOnline (learn how to make flex boxes)
+	3/ canva.com (for designing banner)
+	4/ bookshop.org (UI/UX reference)
+	5/ amazon.com (Books Pics and description) 
+	6/ https://colorhunt.co/ (color pattern)
+	7/ https://getcssscan.com/css-box-shadow-examples (css boxes shadow)
+	8/ https://www.w3schools.com/ (terms and syntax)
+	9/ https://developer.mozilla.org/en-US/ (elements and atributes)
+	10/ Bing AI chat: generate brief description for books
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinT BookStore</title>
+    <script src="https://kit.fontawesome.com/1fe306d809.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="mint-logo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Header Part -->
+    <header class="header">
+        <div class="header-1">
+            <div class="icon">
+                <a href="index.html"><img src="mint-logo.png" alt="Logo" width="100px"></a>
+            </div>
+            <form  acction="search.processing" class="search-form">
+                <input type="search" id="search-box" placeholder="Search by Title, Author or Keyword">
+                <label for="search-box"><img src="https://rails-assets-us.bookshop.org/ds/images/search.179df46915b36d0fba2c0ab8f704467e37bb6558.svg" title="Search" alt="Search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-icon" class="fas fa-search"></div>
+                <div id="shopping-icon" class="fas fa-shopping-cart"></div>
+                <div id="user-icon" class="fas fa-user"></div>
+                <div id="menu-icon" class="fa-solid fa-bars"></div>
+            </div>
+        </div>
+    </header>
+    <div class="mobi_icon">☰</div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="kid_book.html">Kids</a></li>
+            <li><a href="cate_2.html">Business & Money</a></li>
+            <li><a href="cate_3.html">Computer & Technology Books</a></li>
+        </ul>
+    </nav>
+    <!-- Header Part -->
+
+
+    <!-- Main Part is here -->
+    <main>
+        <div class="about-section">
+            <div class="about_container">
+                <h1>About Us</h1>
+                <p class="text">
+                    My name is <strong>MinT</strong>. And my major is Software Engineer.
+                    <br>
+                    This is a Static BookStore Website I made applying some bassis CSS and HTML.
+                    <br>
+                    This is just a dummy website and not for comercial.
+                </p>
+                <div class="contact_info">
+                    <span>📞: +84 90 123 1234</span>
+                    <span>📧: s3911737@rmit.edu.vn</span>
+                    <span>📛: MinT</span>
+                </div>
+            </div>
+        </div>
+    <!-- Main Part is here -->
+    
+    <!-- Footer Part is here -->
+    <footer>
+        <div class="footer">
+            <div class="icon">
+                <a href="index.html"><img src="mint-logo.png" alt="Logo" width="100px"></a>
+            </div>
+            <nav class="navbar-2">
+                <ul>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="privacy.html">Terms</a></li>
+                    <li><a href="privacy.html">Copyright</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <center>
+            <div class="footer-2">
+                <p>© Copyright 2023 by Minh Tran</p>
+            </div>
+        </center>
+        
+    </footer>
+    <!-- Footer Part is here -->
+</body>
+</html>

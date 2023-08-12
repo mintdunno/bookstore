@@ -1,0 +1,19 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: TRAN NGOC MINH
+    ID: Your student S3911737
+    Acknowledgement: 
+	1/ https://www.pexels.com/vi-vn/anh/nh-c-a-ng-i-dang-gi-sach-2954199/
+	2/ https://www.youtube.com/@DarkCodeOnline (learn how to make flex boxes)
+	3/ canva.com (for designing banner)
+	4/ bookshop.org (UI/UX reference)
+	5/ amazon.com (Books Pics and description) 
+	6/ https://colorhunt.co/ (color pattern)
+	7/ https://getcssscan.com/css-box-shadow-examples (css boxes shadow)
+	8/ https://www.w3schools.com/ (terms and syntax)
+	9/ https://developer.mozilla.org/en-US/ (elements and atributes)
+	10/ Bing AI chat: generate brief description for books
+ -->

@@ -1,0 +1,125 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: TRAN NGOC MINH
+    ID: Your student S3911737
+    Acknowledgement: 
+	1/ https://www.pexels.com/vi-vn/anh/nh-c-a-ng-i-dang-gi-sach-2954199/
+	2/ https://www.youtube.com/@DarkCodeOnline (learn how to make flex boxes)
+	3/ canva.com (for designing banner)
+	4/ bookshop.org (UI/UX reference)
+	5/ amazon.com (Books Pics and description) 
+	6/ https://colorhunt.co/ (color pattern)
+	7/ https://getcssscan.com/css-box-shadow-examples (css boxes shadow)
+	8/ https://www.w3schools.com/ (terms and syntax)
+	9/ https://developer.mozilla.org/en-US/ (elements and atributes)
+	10/ Bing AI chat: generate brief description for books
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Design Interview</title>
+    <script src="https://kit.fontawesome.com/1fe306d809.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="mint-logo.png" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-1">
+            <div class="icon">
+                <a href="../../index.html"><img src="mint-logo.png" alt="Logo" width="100px"></a>
+            </div>
+            <form  acction="search.processing" class="search-form">
+                <input type="search" id="search-box" placeholder="Search by Title, Author or Keyword">
+                <label for="search-box"><img src="https://rails-assets-us.bookshop.org/ds/images/search.179df46915b36d0fba2c0ab8f704467e37bb6558.svg" title="Search" alt="Search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-icon" class="fas fa-search"></div>
+                <div id="shopping-icon" class="fas fa-shopping-cart"></div>
+                <div id="user-icon" class="fas fa-user"></div>
+            </div>
+        </div>
+    </header>
+    <div class="mobi_icon">☰</div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../cate_3.html">Kids</a></li>
+            <li><a href="../../cate_2.html">Business & Money</a></li>
+            <li><a href="../../cate_3.html">Computer & Technology Books</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="breadcrumb">
+            <ul>
+                <a href="../../index.html">Home</a>
+                ＞
+                <a href="../../cate_3.html">Computer & Technology Books</a>
+                ＞
+                <a href="cate_3_4.html">System Design Interview</a>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="main-pic">
+                <img src="https://m.media-amazon.com/images/I/51lJolln98L.jpg" alt="System Design Interview">
+            </div>
+
+            <div class="info">
+                <div id="book-name" >
+                    <h1>System Design Interview</h1>
+                    <center>
+                        <h2>Aurélien Géron </h2>
+                    </center>
+                </div>
+                <div id="price">
+                    36 $
+                    
+                </div> 
+                <input type="button" class="button" value="Add to Cart 🛒">
+                
+            </div>
+        </div>
+        <div class="description">
+            <div id="content">
+                <h1>Description</h1>
+                <br>
+                <p>A System Design Interview is a free-form discussion where the candidate is asked to design a large-scale web application. The interview tests the candidate’s technical knowledge, problem-solving skills, and trade-off decisions. The candidate should know the fundamental concepts and patterns of System Design, such as scalability, availability, consistency, reliability, security, etc. The candidate should also be familiar with the common components and technologies of web applications, such as load balancers, caches, databases, message queues, microservices, APIs, etc. The candidate should be able to communicate their design clearly and justify their choices with data and reasoning.</p>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="icon">
+                <a href="../../index.html"><img src="mint-logo.png" alt="Logo" width="100px"></a>
+            </div>
+            <nav class="navbar-2">
+                <ul>
+                    <li><a href="../../about_us.html">About Us</a></li>
+                    <li><a href="../../privacy.html">Privacy Policy</a></li>
+                    <li><a href="../../privacy.html">Terms</a></li>
+                    <li><a href="../../privacy.html">Copyright</a></li>
+                    <li><a href="../../contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <center>
+            <div class="footer-2">
+                <p>© Copyright 2023 by Minh Tran</p>
+            </div>
+        </center>
+        
+    </footer>
+    
+</body>
+</html>
