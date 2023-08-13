@@ -424,7 +424,7 @@ hr {
     font-size: 1.5rem;
     font-weight: bold;
 }
-.form_content input[type="text"],input[type="number"] {
+.form_content input[type="text"],input[type="number"],input[type="email"] {
     width: 100%;
     padding: 3px 0px;
 }
